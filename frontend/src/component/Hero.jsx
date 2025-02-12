@@ -1,43 +1,29 @@
-import 'owl.carousel/dist/assets/owl.carousel.css'; 
-import 'owl.carousel/dist/assets/owl.theme.default.css';  // Ensure theme CSS is imported
-import 'owl.carousel';  
-import React, { useEffect } from 'react';
-import carouselImage1 from '../assets/img/carousel-1.jpg';
-import carouselImage2 from '../assets/img/carousel-2.jpg';
-import carouselImage3 from '../assets/img/carousel-3.jpg';
-import Appointment from '../component/Appointment';
-import About from '../component/About';
-import Service from '../component/Service';
-import Feature from '../component/Feature';
-import Team from '../component/Team';
-import Testimonial from '../component/Testimonial';
-const Home = () => {
-  useEffect(() => {
-    // Ensure the DOM is fully loaded before initializing Owl Carousel
-    const initializeOwlCarousel = () => {
-      if ($('.owl-carousel').length > 0) {
-        $('.owl-carousel').owlCarousel('destroy'); // Destroy existing instances to avoid duplication
-        $('.owl-carousel').owlCarousel({
-          items: 1, // Number of items per slide
-          loop: true,
-          autoplay: true,
-          autoplayTimeout: 3000,
-          autoplayHoverPause: true,
-          nav: true,  // Enable navigation arrows
-          dots: true,  // Enable dots for navigation
-          navText: ['<', '>'], // Customize navigation buttons
-        });
-      }
-    };
-  
-    initializeOwlCarousel();
-  }, []);
-  
+import React from 'react'
 
+const Hero = () => {
+    useEffect(() => {
+        // Ensure the DOM is fully loaded before initializing Owl Carousel
+        const initializeOwlCarousel = () => {
+          if ($('.owl-carousel').length > 0) {
+            $('.owl-carousel').owlCarousel('destroy'); // Destroy existing instances to avoid duplication
+            $('.owl-carousel').owlCarousel({
+              items: 1, // Number of items per slide
+              loop: true,
+              autoplay: true,
+              autoplayTimeout: 3000,
+              autoplayHoverPause: true,
+              nav: true,  // Enable navigation arrows
+              dots: true,  // Enable dots for navigation
+              navText: ['<', '>'], // Customize navigation buttons
+            });
+          }
+        };
+      
+        initializeOwlCarousel();
+      }, []);
+      
   return (
     <div>
-   
-
     {/* Header Start */}
     <div className="container-fluid header bg-primary p-0 mb-5">
       <div className="row g-0 align-items-center flex-column-reverse flex-lg-row">
@@ -90,21 +76,8 @@ const Home = () => {
       </div>
     </div>
     {/* Header End */}
-   
-    <About/>
+    </div>
+  )
+}
 
-    <Service/>
-
-    <Feature/>
-
-    <Team/>
-
-    <Appointment/>
-
-    <Testimonial/>
-   
-  </div>
-  );
-};
-
-export default Home;
+export default Hero

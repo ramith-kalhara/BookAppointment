@@ -235,7 +235,7 @@
 }
 
 .page-header {
-    background: url(../img/header-page.jpg) top center no-repeat;
+    background: url(/src/assets/img/header-page.jpg) top center no-repeat;
     background-size: cover;
     text-shadow: 0 0 30px rgba(0, 0, 0, .1);
 }
