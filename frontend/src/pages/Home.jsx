@@ -32,6 +32,8 @@ const Home = () => {
   
     initializeOwlCarousel();
   }, []);
+
+  
   
 
   return (
@@ -97,7 +99,7 @@ const Home = () => {
 
     <Feature/>
 
-    <Team/>
+    <Team limit={4} /> 
 
     <Appointment/>
 

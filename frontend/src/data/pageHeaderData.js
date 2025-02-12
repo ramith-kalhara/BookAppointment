@@ -36,6 +36,25 @@ const pageHeaderData = [
       ],
       activeBreadcrumb: 'Feature',
     },
+    {
+      page: 'appointment',
+      title: 'Appointment',
+      breadcrumbItems: [
+        { name: 'Home', href: '/' },
+        { name: 'Pages', href: '#' },
+      ],
+      activeBreadcrumb: 'Appointment',
+    },
+    {
+      page: 'doctor',
+      title: 'Doctors',
+      breadcrumbItems: [
+        { name: 'Home', href: '/' },
+        { name: 'Pages', href: '#' },
+      ],
+      activeBreadcrumb: 'Doctor',
+    },
+   
   ];
   
   export default pageHeaderData;

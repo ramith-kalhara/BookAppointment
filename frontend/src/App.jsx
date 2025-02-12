@@ -6,6 +6,9 @@ import Layout from "./component/Layout";
 import Service_Page from "./pages/Service_Page";
 import Feature_Page from "./pages/Feature_Page";
 import Doctors_Page from "./pages/Doctors_Page";
+import Appointment_Page from "./pages/Appointment_Page";
+import Contact_Page from "./pages/Contact_Page";
+
 
 const App = () => {
   return (
@@ -17,6 +20,8 @@ const App = () => {
           <Route path="/service" element={<Service_Page />} />
           <Route path="/feature" element={<Feature_Page />} />
           <Route path="/team" element={<Doctors_Page />} />
+          <Route path="/appointment" element={<Appointment_Page />} />
+          <Route path="/contact" element={<Contact_Page />} />
         </Routes>
       </Layout>
     </Router>

@@ -1,9 +1,9 @@
 import React from 'react'
-import Team from '../component/Team'
 import PageHeader from "../component/PageHeader"; 
 import pageHeaderData from "../data/pageHeaderData"; 
-const Doctors_Page = () => {
-    const pageData = pageHeaderData.find(page => page.page === 'doctor');
+import Contact from '../component/Contact';
+function Contact_Page() {
+    const pageData = pageHeaderData.find(page => page.page === 'contact');
   return (
     <div>
         <PageHeader 
@@ -11,10 +11,11 @@ const Doctors_Page = () => {
                 breadcrumbItems={pageData.breadcrumbItems}
                 activeBreadcrumb={pageData.activeBreadcrumb}
         />
-        <Team/>
+
+        <Contact/>
 
     </div>
   )
 }
 
-export default Doctors_Page
+export default Contact_Page
