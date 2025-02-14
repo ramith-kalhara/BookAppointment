@@ -19,7 +19,6 @@ This project is a full-stack Appointment Booking System built with **React** for
 - **Back-End:** Spring Boot
 - **Database:** MySQL
 - **Styling:** Bootstrap 5
-- **Authentication:** JWT (JSON Web Tokens) for securing user login and appointment management
 - **APIs:** RESTful APIs for handling requests between front-end and back-end
 
 ---
