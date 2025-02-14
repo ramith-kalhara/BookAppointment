@@ -24,7 +24,7 @@ const About = () => {
             <p><i className="far fa-check-circle text-primary me-3" />Quality health care</p>
             <p><i className="far fa-check-circle text-primary me-3" />Only Qualified Doctors</p>
             <p><i className="far fa-check-circle text-primary me-3" />Medical Research Professionals</p>
-            <a className="btn btn-primary rounded-pill py-3 px-5 mt-3" href>Read More</a>
+            <a className="btn btn-primary rounded-pill py-3 px-5 mt-3" href="#">Read More</a>
           </div>
         </div>
       </div>

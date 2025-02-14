@@ -1,5 +1,5 @@
 import React from 'react';
-import PropTypes from 'prop-types'; // For PropType validation
+import PropTypes from 'prop-types'; 
 
 const PageHeader = ({ title, breadcrumbItems, activeBreadcrumb }) => {
   return (
@@ -27,7 +27,7 @@ const PageHeader = ({ title, breadcrumbItems, activeBreadcrumb }) => {
   );
 };
 
-// PropType validation for better error checking
+
 PageHeader.propTypes = {
   title: PropTypes.string.isRequired,
   breadcrumbItems: PropTypes.arrayOf(

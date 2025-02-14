@@ -47,7 +47,7 @@ const Header = () => {
           <div className="navbar-nav ms-auto p-4 p-lg-0">
             <Link to="/" className="nav-item nav-link active">Home</Link>
             <Link to="/about" className="nav-item nav-link">About</Link>
-            <Link to="/appointment" className="nav-item nav-link">Appointment</Link>
+            <Link to="/loginSignup" className="nav-item nav-link">Appointment</Link>
             <div className="nav-item dropdown">
               <a href="#" className="nav-link dropdown-toggle" data-bs-toggle="dropdown">Pages</a>
               <div className="dropdown-menu rounded-0 rounded-bottom m-0">
@@ -57,8 +57,9 @@ const Header = () => {
               </div>
             </div>
             <Link to="/contact" className="nav-item nav-link">Contact</Link>
+            
           </div>
-          <Link to="/appointment" className="btn btn-primary rounded-0 py-4 px-lg-5 d-none d-lg-block">
+          <Link to="/loginSignup" className="btn btn-primary rounded-0 py-4 px-lg-5 d-none d-lg-block">
             Appointment <i className="fa fa-arrow-right ms-3" />
           </Link>
         </div>

@@ -1,4 +1,5 @@
 import React from "react";
+
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import Home from "./pages/Home";
 import About_Page from "./pages/About_Page";
@@ -8,6 +9,9 @@ import Feature_Page from "./pages/Feature_Page";
 import Doctors_Page from "./pages/Doctors_Page";
 import Appointment_Page from "./pages/Appointment_Page";
 import Contact_Page from "./pages/Contact_Page";
+import LoginSignup_Page from "./pages/LoginSignup_Page";
+import AppointmentDetails_Page from "./pages/AppointmentDetails_Page";
+import UpdateAppointment_Page from "./pages/UpdateAppointment_Page";
 
 
 const App = () => {
@@ -22,6 +26,9 @@ const App = () => {
           <Route path="/team" element={<Doctors_Page />} />
           <Route path="/appointment" element={<Appointment_Page />} />
           <Route path="/contact" element={<Contact_Page />} />
+          <Route path="/loginSignup" element={<LoginSignup_Page />} />
+          <Route path="/appointmentDetails" element={<AppointmentDetails_Page />} />
+          <Route path="/updateAppointment/:appointmentId" element={<UpdateAppointment_Page />} />
         </Routes>
       </Layout>
     </Router>

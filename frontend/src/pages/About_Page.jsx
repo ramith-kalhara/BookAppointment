@@ -20,7 +20,7 @@ const About_Page = () => {
       <About/>
 
       <Feature/>
-      <Team/>
+      <Team limit={4}/>
     
     </div>
     </div>

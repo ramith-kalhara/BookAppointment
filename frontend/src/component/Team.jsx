@@ -1,6 +1,6 @@
 // Team.jsx
 import React from 'react';
-import teamData from '../data/teamData'; // Import the team data
+import teamData from '../data/teamData';
 
 const Team = ({ limit }) => {
   return (
