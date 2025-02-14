@@ -101,8 +101,6 @@ const Home = () => {
 
     <Team limit={4} /> 
 
-    <Appointment/>
-
     <Testimonial/>
    
   </div>
