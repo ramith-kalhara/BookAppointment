@@ -11,6 +11,8 @@ This project is a full-stack Appointment Booking System built with **React** for
 - **Appointment Booking:** Once logged in, users can view and choose available time slots and book an appointment with a selected doctor.
 - **Appointment Management:** After booking, users can view, update, or delete their appointments.
 - **Appointment View:** Users can view the details of their appointments and decide whether they want to make changes or delete them.
+- **Appointment Update:** Users can update their existing appointment details, including the doctor, time, and description.
+- **Appointment Deletion:** Users can delete their appointments if they no longer wish to keep them.
 
 ---
 
@@ -71,5 +73,5 @@ This project is a full-stack Appointment Booking System built with **React** for
 - Clone the repository:
 
   ```bash
-  git clone https://github.com/your-repo/appointment-booking-system.git
+  git clone https://github.com/ramith-kalhara/BookAppointment.git
 
