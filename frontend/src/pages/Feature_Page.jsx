@@ -3,7 +3,7 @@ import PageHeader from "../component/PageHeader";
 import pageHeaderData from "../data/pageHeaderData"; 
 import Feature from '../component/Feature';
 const Feature_Page = () => {
-    const pageData = pageHeaderData.find(page => page.page === 'services');
+    const pageData = pageHeaderData.find(page => page.page === 'feature');
   return (
     <div>
         <PageHeader 

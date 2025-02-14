@@ -15,27 +15,27 @@ function Footer() {
             <p className="mb-2"><i className="fa fa-phone-alt me-3" />+012 345 67890</p>
             <p className="mb-2"><i className="fa fa-envelope me-3" />info@example.com</p>
             <div className="d-flex pt-2">
-              <a className="btn btn-outline-light btn-social rounded-circle" href><i className="fab fa-twitter" /></a>
-              <a className="btn btn-outline-light btn-social rounded-circle" href><i className="fab fa-facebook-f" /></a>
-              <a className="btn btn-outline-light btn-social rounded-circle" href><i className="fab fa-youtube" /></a>
-              <a className="btn btn-outline-light btn-social rounded-circle" href><i className="fab fa-linkedin-in" /></a>
+              <a className="btn btn-outline-light btn-social rounded-circle" href="#"><i className="fab fa-twitter" /></a>
+              <a className="btn btn-outline-light btn-social rounded-circle" href="#"><i className="fab fa-facebook-f" /></a>
+              <a className="btn btn-outline-light btn-social rounded-circle" href="#"><i className="fab fa-youtube" /></a>
+              <a className="btn btn-outline-light btn-social rounded-circle" href="#"><i className="fab fa-linkedin-in" /></a>
             </div>
           </div>
           <div className="col-lg-3 col-md-6">
             <h5 className="text-light mb-4">Services</h5>
-            <a className="btn btn-link" href>Cardiology</a>
-            <a className="btn btn-link" href>Pulmonary</a>
-            <a className="btn btn-link" href>Neurology</a>
-            <a className="btn btn-link" href>Orthopedics</a>
-            <a className="btn btn-link" href>Laboratory</a>
+            <a className="btn btn-link" href="#">Cardiology</a>
+            <a className="btn btn-link" href="#">Pulmonary</a>
+            <a className="btn btn-link" href="#">Neurology</a>
+            <a className="btn btn-link" href="#">Orthopedics</a>
+            <a className="btn btn-link" href="#">Laboratory</a>
           </div>
           <div className="col-lg-3 col-md-6">
             <h5 className="text-light mb-4">Quick Links</h5>
-            <a className="btn btn-link" href>About Us</a>
-            <a className="btn btn-link" href>Contact Us</a>
-            <a className="btn btn-link" href>Our Services</a>
-            <a className="btn btn-link" href>Terms &amp; Condition</a>
-            <a className="btn btn-link" href>Support</a>
+            <a className="btn btn-link" href="#">About Us</a>
+            <a className="btn btn-link" href="#">Contact Us</a>
+            <a className="btn btn-link" href="#">Our Services</a>
+            <a className="btn btn-link" href="#">Terms &amp; Condition</a>
+            <a className="btn btn-link" href="#">Support</a>
           </div>
           <div className="col-lg-3 col-md-6">
             <h5 className="text-light mb-4">Newsletter</h5>

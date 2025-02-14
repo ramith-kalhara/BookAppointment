@@ -21,7 +21,7 @@ const Service = () => {
                       </div>
                       <h4 className="mb-3">Cardiology</h4>
                       <p className="mb-4">Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem sed diam stet diam sed stet.</p>
-                      <a className="btn" href><i className="fa fa-plus text-primary me-3" />Read More</a>
+                      <a className="btn" href="#"><i className="fa fa-plus text-primary me-3" />Read More</a>
                     </div>
                   </div>
                   <div className="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
@@ -31,7 +31,7 @@ const Service = () => {
                       </div>
                       <h4 className="mb-3">Pulmonary</h4>
                       <p className="mb-4">Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem sed diam stet diam sed stet.</p>
-                      <a className="btn" href><i className="fa fa-plus text-primary me-3" />Read More</a>
+                      <a className="btn" href="#"><i className="fa fa-plus text-primary me-3" />Read More</a>
                     </div>
                   </div>
                   <div className="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
@@ -41,7 +41,7 @@ const Service = () => {
                       </div>
                       <h4 className="mb-3">Neurology</h4>
                       <p className="mb-4">Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem sed diam stet diam sed stet.</p>
-                      <a className="btn" href><i className="fa fa-plus text-primary me-3" />Read More</a>
+                      <a className="btn" href="#"><i className="fa fa-plus text-primary me-3" />Read More</a>
                     </div>
                   </div>
                   <div className="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
@@ -51,7 +51,7 @@ const Service = () => {
                       </div>
                       <h4 className="mb-3">Orthopedics</h4>
                       <p className="mb-4">Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem sed diam stet diam sed stet.</p>
-                      <a className="btn" href><i className="fa fa-plus text-primary me-3" />Read More</a>
+                      <a className="btn" href="#"><i className="fa fa-plus text-primary me-3" />Read More</a>
                     </div>
                   </div>
                   <div className="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
@@ -61,7 +61,7 @@ const Service = () => {
                       </div>
                       <h4 className="mb-3">Dental Surgery</h4>
                       <p className="mb-4">Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem sed diam stet diam sed stet.</p>
-                      <a className="btn" href><i className="fa fa-plus text-primary me-3" />Read More</a>
+                      <a className="btn" href="#"><i className="fa fa-plus text-primary me-3" />Read More</a>
                     </div>
                   </div>
                   <div className="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
@@ -71,7 +71,7 @@ const Service = () => {
                       </div>
                       <h4 className="mb-3">Laboratory</h4>
                       <p className="mb-4">Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem sed diam stet diam sed stet.</p>
-                      <a className="btn" href><i className="fa fa-plus text-primary me-3" />Read More</a>
+                      <a className="btn" href="#"><i className="fa fa-plus text-primary me-3" />Read More</a>
                     </div>
                   </div>
                 </div>

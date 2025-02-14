@@ -18,7 +18,7 @@ const Service_Page = () => {
         />
 
         <Service/>
-        <Appointment/>
+    
     </div>
   )
 }
