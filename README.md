@@ -47,13 +47,15 @@ This project is a full-stack Appointment Booking System built with **React** for
 ### 1. **User Endpoints:**
    - `POST /api/user/login` - User login with email and password.
    - `POST /api/user/create` - Create a new user.
+   - `GET /api/user/all` - Get all users.
+   - `GET /api/user/{id}` - Get user by id.
 
 ### 2. **Appointment Endpoints:**
    - `GET /api/appointment/all` - Get all appointments.
    - `POST /api/appointment/create` - Create a new appointment.
    - `GET /api/appointment/{id}` - Get details of a specific appointment.
-   - `PUT /api/appointment/{id}` - Update an appointment.
-   - `DELETE /api/appointment/{id}` - Delete an appointment.
+   - `PUT /api/appointment/update/{id}` - Update an appointment.
+   - `DELETE /api/appointment/delete/{id}` - Delete an appointment.
 
 ---
 
