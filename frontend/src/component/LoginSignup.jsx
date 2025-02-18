@@ -19,6 +19,14 @@ const LoginSignup = () => {
   
     // Basic email validation 
     const emailRegex = /^[a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,6}$/;
+    if (!name) {
+      Swal.fire({
+          icon: "error",
+          title: "Name Required",
+          text: "Please enter your name.",
+      });
+      return; 
+  }
   
     if (!email || !emailRegex.test(email)) {
       Swal.fire({
